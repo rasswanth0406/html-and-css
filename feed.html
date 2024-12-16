@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feed.css">
+    <title>FeedBack</title>
+</head>
+<body>
+    <div class="fform">
+        <h3>FeedBack</h3>
+        <form action="submit">
+            <div class="input">
+                <label class="textlabel">username</label>
+                <input type="text" name="username" id="username"  required>
+            </div>
+            <div class="input">
+                <label class="textlabel">email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="dropdown">
+                <select name="state" id="state">
+                    <option value="" disabled selected>select a state</option>
+                    <option value="tn">TN</option>
+                    <option value="kl">KL</option>
+                    <option value="ka">KA</option>
+                    <option value="ap">Ap</option>
+                </select>
+            </div>
+            <div class="check">
+                <input type="checkbox" name="accept" id="accept">
+                <label for="accept">i accept for terms & condition</label>
+            </div>
+            <div class="radio"> 
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">female</label>
+            </div>
+            <div class="btn">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    background-image: url(pexels-thepaintedsquare-858094.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fform{
+    width: 300px;
+    margin:  auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+.fform h3{
+    text-align: center;
+    color: red;
+}
+.fform .textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px 0px 10px;
+}
+.btn{
+    text-align: center;
+}
+button{
+    margin-top: 2%;
+}
+.dropdown{
+    margin-top: 2%;
+}
+.check{
+    margin-top: 2%;
+    accent-color: blue;
+    transform: scale(1);
+}
+.radio{
+    margin-top: 2%;
+    accent-color: blue;
+    transform: scale(1);   
+}
